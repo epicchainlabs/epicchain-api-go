@@ -1,0 +1,67 @@
+# This file contains all available configuration options
+# with their default values.
+
+# options for analysis running
+run:
+  # timeout for analysis, e.g. 30s, 5m, default is 1m
+  timeout: 2m
+
+  # include test files or not, default is true
+  tests: false
+
+  skip-files:
+    - (^|.*/)grpc/(.*)
+    
+# output configuration options
+output:
+  # colored-line-number|line-number|json|tab|checkstyle|code-climate, default is "colored-line-number"
+  format: tab
+
+# all available settings of specific linters
+linters-settings:
+  exhaustive:
+    # indicates that switch statements are to be considered exhaustive if a
+    # 'default' case is present, even if all enum members aren't listed in the
+    # switch
+    default-signifies-exhaustive: true
+  govet:
+    # report about shadowed variables
+    check-shadowing: false
+
+linters:
+  enable:
+    # mandatory linters
+    - govet
+    - revive
+
+    # some default golangci-lint linters
+    - errcheck
+    - gosimple
+    - ineffassign
+    - staticcheck
+    - typecheck
+
+    # extra linters
+    - exhaustive
+    - gofmt
+    - whitespace
+    - goimports
+  disable-all: true
+  fast: false
+
+issues:
+  # Excluding configuration per-path, per-linter, per-text and per-source
+  exclude-rules:
+    - path: v2 # ignore stutters in universal structures due to protobuf compatibility
+      linters:
+        - golint
+      text: "stutters;"
+
+    - path: grpc # ignore case errors in grpc setters due to protobuf compatibility
+      linters:
+        - golint
+      text: "should be"
+
+    - linters: # ignore SA6002 since we use pool of []byte, however we can switch to *bytes.Buffer
+        - staticcheck
+      text: "SA6002:"
