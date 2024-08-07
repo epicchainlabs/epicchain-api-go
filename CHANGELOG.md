@@ -162,13 +162,13 @@ NeoFS API v2.10 support.
 
 ### Fixed
 
-- Regression of the session token corruption fix from v1.28.2 ([#326](https://github.com/nspcc-dev/neofs-api-go/issues/326)).
+- Regression of the session token corruption fix from v1.28.2 ([#326](https://github.com/epicchainlabs/epicchain-api-go/issues/326)).
 
 ## [1.28.2] - 2021-07-06
 
 ### Fixed
 
-- Data corruption of parameterized session token in `pkg/client.Client` ([#323](https://github.com/nspcc-dev/neofs-api-go/issues/323)).
+- Data corruption of parameterized session token in `pkg/client.Client` ([#323](https://github.com/epicchainlabs/epicchain-api-go/issues/323)).
 
 ## [1.28.1] - 2021-07-01
 
@@ -793,68 +793,68 @@ associated with owner id
 
 Initial public release
 
-[0.2.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.1.0...v0.2.0
-[0.2.1]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.2.0...v0.2.1
-[0.2.2]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.2.1...v0.2.2
-[0.2.3]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.2.2...v0.2.3
-[0.2.4]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.2.3...v0.2.4
-[0.2.5]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.2.4...v0.2.5
-[0.2.6]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.2.5...v0.2.6
-[0.2.7]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.2.6...v0.2.7
-[0.2.8]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.2.7...v0.2.8
-[0.2.9]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.2.8...v0.2.9
-[0.2.10]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.2.9...v0.2.10
-[0.2.11]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.2.10...v0.2.11
-[0.2.12]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.2.11...v0.2.12
-[0.2.13]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.2.12...v0.2.13
-[0.2.14]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.2.13...v0.2.14
-[0.3.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.2.14...v0.3.0
-[0.3.1]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.3.0...v0.3.1
-[0.3.2]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.3.1...v0.3.2
-[0.4.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.3.2...v0.4.0
-[0.4.1]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.4.0...v0.4.1
-[0.4.2]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.4.1...v0.4.2
-[0.5.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.4.2...v0.5.0
-[0.6.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.5.0...v0.6.0
-[0.6.1]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.6.0...v0.6.1
-[0.6.2]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.6.1...v0.6.2
-[0.7.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.6.2...v0.7.0
-[0.7.1]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.7.0...v0.7.1
-[0.7.4]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.7.1...v0.7.4
-[0.7.5]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.7.4...v0.7.5
-[0.7.6]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.7.5...v0.7.6
-[1.0.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v0.7.6...v1.0.0
-[1.1.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.0.0...v1.1.0
-[1.2.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.1.0...v1.2.0
-[1.3.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.2.0...v1.3.0
-[1.20.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.3.0...v1.20.0
-[1.20.1]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.20.0...v1.20.1
-[1.20.2]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.20.1...v1.20.2
-[1.20.3]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.20.2...v1.20.3
-[1.21.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.20.3...v1.21.0
-[1.21.1]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.21.0...v1.21.1
-[1.21.2]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.21.1...v1.21.2
-[1.22.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.21.2...v1.22.0
-[1.22.1]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.22.0...v1.22.1
-[1.22.2]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.22.1...v1.22.2
-[1.23.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.22.2...v1.23.0
-[1.24.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.23.0...v1.24.0
-[1.25.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.24.0...v1.25.0
-[1.26.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.25.0...v1.26.0
-[1.26.1]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.26.0...v1.26.1
-[1.27.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.26.1...v1.27.0
-[1.27.1]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.27.0...v1.27.1
-[1.28.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.27.1...v1.28.0
-[1.28.1]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.28.0...v1.28.1
-[1.28.2]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.28.1...v1.28.2
-[1.28.3]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.28.2...v1.28.3
-[1.29.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.28.3...v1.29.0
-[1.30.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.29.0...v1.30.0
-[2.11.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v1.30.0...v2.11.0
-[2.11.1]: https://github.com/nspcc-dev/neofs-api-go/compare/v2.11.0...v2.11.1
-[2.12.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v2.11.1...v2.12.0
-[2.12.1]: https://github.com/nspcc-dev/neofs-api-go/compare/v2.12.0...v2.12.1
-[2.12.2]: https://github.com/nspcc-dev/neofs-api-go/compare/v2.12.1...v2.12.2
-[2.13.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v2.12.2...v2.13.0
-[2.13.1]: https://github.com/nspcc-dev/neofs-api-go/compare/v2.13.0...v2.13.1
-[2.14.0]: https://github.com/nspcc-dev/neofs-api-go/compare/v2.13.1...v2.14.0
+[0.2.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.1.0...v0.2.0
+[0.2.1]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.2.0...v0.2.1
+[0.2.2]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.2.1...v0.2.2
+[0.2.3]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.2.2...v0.2.3
+[0.2.4]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.2.3...v0.2.4
+[0.2.5]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.2.4...v0.2.5
+[0.2.6]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.2.5...v0.2.6
+[0.2.7]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.2.6...v0.2.7
+[0.2.8]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.2.7...v0.2.8
+[0.2.9]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.2.8...v0.2.9
+[0.2.10]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.2.9...v0.2.10
+[0.2.11]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.2.10...v0.2.11
+[0.2.12]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.2.11...v0.2.12
+[0.2.13]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.2.12...v0.2.13
+[0.2.14]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.2.13...v0.2.14
+[0.3.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.2.14...v0.3.0
+[0.3.1]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.3.0...v0.3.1
+[0.3.2]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.3.1...v0.3.2
+[0.4.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.3.2...v0.4.0
+[0.4.1]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.4.0...v0.4.1
+[0.4.2]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.4.1...v0.4.2
+[0.5.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.4.2...v0.5.0
+[0.6.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.5.0...v0.6.0
+[0.6.1]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.6.0...v0.6.1
+[0.6.2]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.6.1...v0.6.2
+[0.7.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.6.2...v0.7.0
+[0.7.1]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.7.0...v0.7.1
+[0.7.4]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.7.1...v0.7.4
+[0.7.5]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.7.4...v0.7.5
+[0.7.6]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.7.5...v0.7.6
+[1.0.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v0.7.6...v1.0.0
+[1.1.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.0.0...v1.1.0
+[1.2.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.1.0...v1.2.0
+[1.3.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.2.0...v1.3.0
+[1.20.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.3.0...v1.20.0
+[1.20.1]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.20.0...v1.20.1
+[1.20.2]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.20.1...v1.20.2
+[1.20.3]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.20.2...v1.20.3
+[1.21.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.20.3...v1.21.0
+[1.21.1]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.21.0...v1.21.1
+[1.21.2]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.21.1...v1.21.2
+[1.22.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.21.2...v1.22.0
+[1.22.1]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.22.0...v1.22.1
+[1.22.2]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.22.1...v1.22.2
+[1.23.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.22.2...v1.23.0
+[1.24.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.23.0...v1.24.0
+[1.25.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.24.0...v1.25.0
+[1.26.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.25.0...v1.26.0
+[1.26.1]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.26.0...v1.26.1
+[1.27.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.26.1...v1.27.0
+[1.27.1]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.27.0...v1.27.1
+[1.28.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.27.1...v1.28.0
+[1.28.1]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.28.0...v1.28.1
+[1.28.2]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.28.1...v1.28.2
+[1.28.3]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.28.2...v1.28.3
+[1.29.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.28.3...v1.29.0
+[1.30.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.29.0...v1.30.0
+[2.11.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v1.30.0...v2.11.0
+[2.11.1]: https://github.com/epicchainlabs/epicchain-api-go/compare/v2.11.0...v2.11.1
+[2.12.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v2.11.1...v2.12.0
+[2.12.1]: https://github.com/epicchainlabs/epicchain-api-go/compare/v2.12.0...v2.12.1
+[2.12.2]: https://github.com/epicchainlabs/epicchain-api-go/compare/v2.12.1...v2.12.2
+[2.13.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v2.12.2...v2.13.0
+[2.13.1]: https://github.com/epicchainlabs/epicchain-api-go/compare/v2.13.0...v2.13.1
+[2.14.0]: https://github.com/epicchainlabs/epicchain-api-go/compare/v2.13.1...v2.14.0

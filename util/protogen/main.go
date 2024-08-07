@@ -31,7 +31,7 @@ func generateFile(gen *protogen.Plugin, file *protogen.File) *protogen.Generated
 	g.P()
 	g.P("package ", file.GoPackageName)
 	g.P()
-	g.P(`import "github.com/nspcc-dev/neofs-api-go/v2/util/proto"`)
+	g.P(`import "github.com/epicchainlabs/epicchain-api-go/v2/util/proto"`)
 
 	//for _, e := range file.Enums {
 	//	g.P("type " + e.GoIdent.GoName + " int32")

@@ -1,8 +1,8 @@
 package container
 
 import (
-	netmap "github.com/nspcc-dev/neofs-api-go/v2/netmap/grpc"
-	refs "github.com/nspcc-dev/neofs-api-go/v2/refs/grpc"
+	netmap "github.com/epicchainlabs/epicchain-api-go/v2/netmap/grpc"
+	refs "github.com/epicchainlabs/epicchain-api-go/v2/refs/grpc"
 )
 
 // SetKey sets key to the container attribute.

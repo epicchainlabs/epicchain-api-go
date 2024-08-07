@@ -1,8 +1,8 @@
 package audit
 
 import (
-	audit "github.com/nspcc-dev/neofs-api-go/v2/audit/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
+	audit "github.com/epicchainlabs/epicchain-api-go/v2/audit/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
 )
 
 func (a *DataAuditResult) MarshalJSON() ([]byte, error) {

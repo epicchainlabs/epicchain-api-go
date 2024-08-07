@@ -3,9 +3,9 @@ package refs_test
 import (
 	"testing"
 
-	refstest "github.com/nspcc-dev/neofs-api-go/v2/refs/test"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
-	messagetest "github.com/nspcc-dev/neofs-api-go/v2/rpc/message/test"
+	refstest "github.com/epicchainlabs/epicchain-api-go/v2/refs/test"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
+	messagetest "github.com/epicchainlabs/epicchain-api-go/v2/rpc/message/test"
 )
 
 func TestMessageConvert(t *testing.T) {

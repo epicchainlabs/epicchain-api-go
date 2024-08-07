@@ -3,9 +3,9 @@ package object_test
 import (
 	"testing"
 
-	objecttest "github.com/nspcc-dev/neofs-api-go/v2/object/test"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
-	messagetest "github.com/nspcc-dev/neofs-api-go/v2/rpc/message/test"
+	objecttest "github.com/epicchainlabs/epicchain-api-go/v2/object/test"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
+	messagetest "github.com/epicchainlabs/epicchain-api-go/v2/rpc/message/test"
 )
 
 func TestMessageConvert(t *testing.T) {

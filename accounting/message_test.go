@@ -3,9 +3,9 @@ package accounting_test
 import (
 	"testing"
 
-	accountingtest "github.com/nspcc-dev/neofs-api-go/v2/accounting/test"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
-	messagetest "github.com/nspcc-dev/neofs-api-go/v2/rpc/message/test"
+	accountingtest "github.com/epicchainlabs/epicchain-api-go/v2/accounting/test"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
+	messagetest "github.com/epicchainlabs/epicchain-api-go/v2/rpc/message/test"
 )
 
 func TestMessage(t *testing.T) {

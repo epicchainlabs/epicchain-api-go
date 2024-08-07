@@ -1,8 +1,8 @@
 package tombstonetest
 
 import (
-	refstest "github.com/nspcc-dev/neofs-api-go/v2/refs/test"
-	"github.com/nspcc-dev/neofs-api-go/v2/tombstone"
+	refstest "github.com/epicchainlabs/epicchain-api-go/v2/refs/test"
+	"github.com/epicchainlabs/epicchain-api-go/v2/tombstone"
 )
 
 func GenerateTombstone(empty bool) *tombstone.Tombstone {

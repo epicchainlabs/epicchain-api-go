@@ -1,11 +1,11 @@
 package storagegroup
 
 import (
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	refsGRPC "github.com/nspcc-dev/neofs-api-go/v2/refs/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
-	sg "github.com/nspcc-dev/neofs-api-go/v2/storagegroup/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	refsGRPC "github.com/epicchainlabs/epicchain-api-go/v2/refs/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
+	sg "github.com/epicchainlabs/epicchain-api-go/v2/storagegroup/grpc"
 )
 
 func (s *StorageGroup) ToGRPCMessage() grpc.Message {

@@ -3,7 +3,7 @@ package client
 import (
 	"sync"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/grpc"
 )
 
 // Client represents client for exchanging messages

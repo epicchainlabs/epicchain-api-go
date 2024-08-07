@@ -1,6 +1,6 @@
 package acl
 
-import "github.com/nspcc-dev/neofs-api-go/v2/refs"
+import "github.com/epicchainlabs/epicchain-api-go/v2/refs"
 
 // HeaderFilter is a unified structure of FilterInfo
 // message from proto definition.

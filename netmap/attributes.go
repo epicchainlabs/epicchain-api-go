@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
 )
 
 // prefix of keys to subnet attributes.

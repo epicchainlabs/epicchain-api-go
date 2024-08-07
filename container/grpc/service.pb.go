@@ -7,9 +7,9 @@
 package container
 
 import (
-	grpc2 "github.com/nspcc-dev/neofs-api-go/v2/acl/grpc"
-	grpc1 "github.com/nspcc-dev/neofs-api-go/v2/refs/grpc"
-	grpc "github.com/nspcc-dev/neofs-api-go/v2/session/grpc"
+	grpc2 "github.com/epicchainlabs/epicchain-api-go/v2/acl/grpc"
+	grpc1 "github.com/epicchainlabs/epicchain-api-go/v2/refs/grpc"
+	grpc "github.com/epicchainlabs/epicchain-api-go/v2/session/grpc"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

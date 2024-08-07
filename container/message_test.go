@@ -3,9 +3,9 @@ package container_test
 import (
 	"testing"
 
-	containertest "github.com/nspcc-dev/neofs-api-go/v2/container/test"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
-	messagetest "github.com/nspcc-dev/neofs-api-go/v2/rpc/message/test"
+	containertest "github.com/epicchainlabs/epicchain-api-go/v2/container/test"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
+	messagetest "github.com/epicchainlabs/epicchain-api-go/v2/rpc/message/test"
 )
 
 func TestMessageConvert(t *testing.T) {

@@ -1,10 +1,10 @@
 package storagegroup
 
 import (
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
-	storagegroup "github.com/nspcc-dev/neofs-api-go/v2/storagegroup/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/util/proto"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
+	storagegroup "github.com/epicchainlabs/epicchain-api-go/v2/storagegroup/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/util/proto"
 )
 
 const (

@@ -1,7 +1,7 @@
 package tombstone
 
 import (
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
 )
 
 // Tombstone is a unified structure of Tombstone

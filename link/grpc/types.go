@@ -1,6 +1,6 @@
 package link
 
-import grpc "github.com/nspcc-dev/neofs-api-go/v2/refs/grpc"
+import grpc "github.com/epicchainlabs/epicchain-api-go/v2/refs/grpc"
 
 // SetId sets object ID.
 func (x *Link_MeasuredObject) SetId(v *grpc.ObjectID) {

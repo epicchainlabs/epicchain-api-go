@@ -1,11 +1,11 @@
 package accounting
 
 import (
-	accounting "github.com/nspcc-dev/neofs-api-go/v2/accounting/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	refsGRPC "github.com/nspcc-dev/neofs-api-go/v2/refs/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
+	accounting "github.com/epicchainlabs/epicchain-api-go/v2/accounting/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	refsGRPC "github.com/epicchainlabs/epicchain-api-go/v2/refs/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
 )
 
 func (b *BalanceRequestBody) ToGRPCMessage() grpc.Message {

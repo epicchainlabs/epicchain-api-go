@@ -4,12 +4,12 @@ import (
 	"errors"
 	"fmt"
 
-	link "github.com/nspcc-dev/neofs-api-go/v2/link/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	refsGRPC "github.com/nspcc-dev/neofs-api-go/v2/refs/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
-	"github.com/nspcc-dev/neofs-api-go/v2/util/proto"
+	link "github.com/epicchainlabs/epicchain-api-go/v2/link/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	refsGRPC "github.com/epicchainlabs/epicchain-api-go/v2/refs/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
+	"github.com/epicchainlabs/epicchain-api-go/v2/util/proto"
 )
 
 // Link represents object Link message from NeoFS API V2 protocol.

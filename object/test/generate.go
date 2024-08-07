@@ -1,11 +1,11 @@
 package objecttest
 
 import (
-	"github.com/nspcc-dev/neofs-api-go/v2/internal/random"
-	"github.com/nspcc-dev/neofs-api-go/v2/object"
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	refstest "github.com/nspcc-dev/neofs-api-go/v2/refs/test"
-	sessiontest "github.com/nspcc-dev/neofs-api-go/v2/session/test"
+	"github.com/epicchainlabs/epicchain-api-go/v2/internal/random"
+	"github.com/epicchainlabs/epicchain-api-go/v2/object"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	refstest "github.com/epicchainlabs/epicchain-api-go/v2/refs/test"
+	sessiontest "github.com/epicchainlabs/epicchain-api-go/v2/session/test"
 )
 
 func GenerateShortHeader(empty bool) *object.ShortHeader {

@@ -1,9 +1,9 @@
 package rpc
 
 import (
-	"github.com/nspcc-dev/neofs-api-go/v2/netmap"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/client"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/common"
+	"github.com/epicchainlabs/epicchain-api-go/v2/netmap"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/client"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/common"
 )
 
 const serviceNetmap = serviceNamePrefix + "netmap.NetmapService"

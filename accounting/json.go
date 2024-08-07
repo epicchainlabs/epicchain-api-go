@@ -1,8 +1,8 @@
 package accounting
 
 import (
-	accounting "github.com/nspcc-dev/neofs-api-go/v2/accounting/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
+	accounting "github.com/epicchainlabs/epicchain-api-go/v2/accounting/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
 )
 
 func (d *Decimal) MarshalJSON() ([]byte, error) {

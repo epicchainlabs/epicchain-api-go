@@ -1,8 +1,8 @@
 package reputation
 
 import (
-	reputation "github.com/nspcc-dev/neofs-api-go/v2/reputation/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
+	reputation "github.com/epicchainlabs/epicchain-api-go/v2/reputation/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
 )
 
 func (x *PeerID) MarshalJSON() ([]byte, error) {

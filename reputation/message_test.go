@@ -3,9 +3,9 @@ package reputation_test
 import (
 	"testing"
 
-	reputationtest "github.com/nspcc-dev/neofs-api-go/v2/reputation/test"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
-	messagetest "github.com/nspcc-dev/neofs-api-go/v2/rpc/message/test"
+	reputationtest "github.com/epicchainlabs/epicchain-api-go/v2/reputation/test"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
+	messagetest "github.com/epicchainlabs/epicchain-api-go/v2/rpc/message/test"
 )
 
 func TestMessageConvert(t *testing.T) {

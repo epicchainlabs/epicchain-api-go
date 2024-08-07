@@ -1,9 +1,9 @@
 package refs
 
 import (
-	refs "github.com/nspcc-dev/neofs-api-go/v2/refs/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
+	refs "github.com/epicchainlabs/epicchain-api-go/v2/refs/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
 )
 
 func (o *OwnerID) ToGRPCMessage() grpc.Message {

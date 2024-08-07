@@ -1,8 +1,8 @@
 package session
 
 import (
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
-	session "github.com/nspcc-dev/neofs-api-go/v2/session/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
+	session "github.com/epicchainlabs/epicchain-api-go/v2/session/grpc"
 	"google.golang.org/protobuf/encoding/protojson"
 )
 

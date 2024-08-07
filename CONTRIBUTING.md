@@ -3,8 +3,8 @@
 First, thank you for contributing! We love and encourage pull requests from
 everyone. Please follow the guidelines:
 
-- Check the open [issues](https://github.com/nspcc-dev/neofs-api-go/issues) and
-  [pull requests](https://github.com/nspcc-dev/neofs-api-go/pulls) for existing
+- Check the open [issues](https://github.com/epicchainlabs/epicchain-api-go/issues) and
+  [pull requests](https://github.com/epicchainlabs/epicchain-api-go/pulls) for existing
   discussions.
 
 - Open an issue first, to discuss a new feature or enhancement.
@@ -26,18 +26,18 @@ send a pull request. We encourage pull requests to discuss code changes. Here
 are the steps in details:
 
 ### Set up your GitHub Repository
-Fork [NeoFS node upstream](https://github.com/nspcc-dev/neofs-api-go/fork) source
+Fork [NeoFS node upstream](https://github.com/epicchainlabs/epicchain-api-go/fork) source
 repository to your own personal repository. Copy the URL of your fork (you will
 need it for the `git clone` command below).
 
 ```sh
-$ git clone https://github.com/nspcc-dev/neofs-api-go
+$ git clone https://github.com/epicchainlabs/epicchain-api-go
 ```
 
 ### Set up git remote as ``upstream``
 ```sh
 $ cd neofs-api-go
-$ git remote add upstream https://github.com/nspcc-dev/neofs-api-go
+$ git remote add upstream https://github.com/epicchainlabs/epicchain-api-go
 $ git fetch upstream
 $ git merge upstream/master
 ...

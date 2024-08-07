@@ -1,4 +1,4 @@
-module github.com/nspcc-dev/neofs-api-go/v2
+module github.com/epicchainlabs/epicchain-api-go/v2
 
 go 1.20
 

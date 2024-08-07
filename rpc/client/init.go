@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/common"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/common"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
 )
 
 // MessageReader is an interface of the Message reader.

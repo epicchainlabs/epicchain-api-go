@@ -6,7 +6,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/common"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/common"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/encoding"
 	"google.golang.org/grpc/encoding/proto"

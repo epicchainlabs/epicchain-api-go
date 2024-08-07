@@ -1,9 +1,9 @@
 package tombstone
 
 import (
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
-	tombstone "github.com/nspcc-dev/neofs-api-go/v2/tombstone/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/util/proto"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
+	tombstone "github.com/epicchainlabs/epicchain-api-go/v2/tombstone/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/util/proto"
 )
 
 const (

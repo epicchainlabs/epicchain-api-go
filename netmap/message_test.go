@@ -3,9 +3,9 @@ package netmap_test
 import (
 	"testing"
 
-	netmaptest "github.com/nspcc-dev/neofs-api-go/v2/netmap/test"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
-	messagetest "github.com/nspcc-dev/neofs-api-go/v2/rpc/message/test"
+	netmaptest "github.com/epicchainlabs/epicchain-api-go/v2/netmap/test"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
+	messagetest "github.com/epicchainlabs/epicchain-api-go/v2/rpc/message/test"
 )
 
 func TestMessageConvert(t *testing.T) {

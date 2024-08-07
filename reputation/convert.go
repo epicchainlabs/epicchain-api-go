@@ -1,11 +1,11 @@
 package reputation
 
 import (
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	refsGRPC "github.com/nspcc-dev/neofs-api-go/v2/refs/grpc"
-	reputation "github.com/nspcc-dev/neofs-api-go/v2/reputation/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	refsGRPC "github.com/epicchainlabs/epicchain-api-go/v2/refs/grpc"
+	reputation "github.com/epicchainlabs/epicchain-api-go/v2/reputation/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
 )
 
 // ToGRPCMessage converts PeerID to gRPC-generated

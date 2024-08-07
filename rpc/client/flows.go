@@ -5,8 +5,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/common"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/common"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
 )
 
 // SendUnary initializes communication session by RPC info, performs unary RPC

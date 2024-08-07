@@ -1,10 +1,10 @@
 package audit
 
 import (
-	audit "github.com/nspcc-dev/neofs-api-go/v2/audit/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
-	"github.com/nspcc-dev/neofs-api-go/v2/util/proto"
+	audit "github.com/epicchainlabs/epicchain-api-go/v2/audit/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
+	"github.com/epicchainlabs/epicchain-api-go/v2/util/proto"
 )
 
 const (

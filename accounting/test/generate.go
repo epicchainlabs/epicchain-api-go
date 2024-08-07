@@ -1,9 +1,9 @@
 package accountingtest
 
 import (
-	"github.com/nspcc-dev/neofs-api-go/v2/accounting"
-	accountingtest "github.com/nspcc-dev/neofs-api-go/v2/refs/test"
-	sessiontest "github.com/nspcc-dev/neofs-api-go/v2/session/test"
+	"github.com/epicchainlabs/epicchain-api-go/v2/accounting"
+	accountingtest "github.com/epicchainlabs/epicchain-api-go/v2/refs/test"
+	sessiontest "github.com/epicchainlabs/epicchain-api-go/v2/session/test"
 )
 
 func GenerateBalanceRequest(empty bool) *accounting.BalanceRequest {

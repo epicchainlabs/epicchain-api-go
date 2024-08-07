@@ -1,9 +1,9 @@
 package rpc
 
 import (
-	"github.com/nspcc-dev/neofs-api-go/v2/container"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/client"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/common"
+	"github.com/epicchainlabs/epicchain-api-go/v2/container"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/client"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/common"
 )
 
 const serviceContainer = serviceNamePrefix + "container.ContainerService"

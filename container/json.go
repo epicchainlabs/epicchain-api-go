@@ -1,8 +1,8 @@
 package container
 
 import (
-	container "github.com/nspcc-dev/neofs-api-go/v2/container/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
+	container "github.com/epicchainlabs/epicchain-api-go/v2/container/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
 )
 
 func (a *Attribute) MarshalJSON() ([]byte, error) {

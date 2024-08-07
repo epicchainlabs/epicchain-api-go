@@ -1,8 +1,8 @@
 package object
 
 import (
-	object "github.com/nspcc-dev/neofs-api-go/v2/object/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
+	object "github.com/epicchainlabs/epicchain-api-go/v2/object/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
 )
 
 func (h *ShortHeader) MarshalJSON() ([]byte, error) {

@@ -1,9 +1,9 @@
 package netmap
 
 import (
-	netmap "github.com/nspcc-dev/neofs-api-go/v2/netmap/grpc"
-	"github.com/nspcc-dev/neofs-api-go/v2/rpc/message"
-	protoutil "github.com/nspcc-dev/neofs-api-go/v2/util/proto"
+	netmap "github.com/epicchainlabs/epicchain-api-go/v2/netmap/grpc"
+	"github.com/epicchainlabs/epicchain-api-go/v2/rpc/message"
+	protoutil "github.com/epicchainlabs/epicchain-api-go/v2/util/proto"
 )
 
 const (

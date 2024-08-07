@@ -3,7 +3,7 @@ package acl
 import (
 	"testing"
 
-	acl "github.com/nspcc-dev/neofs-api-go/v2/acl/grpc"
+	acl "github.com/epicchainlabs/epicchain-api-go/v2/acl/grpc"
 	"github.com/stretchr/testify/require"
 )
 

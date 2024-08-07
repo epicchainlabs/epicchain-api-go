@@ -1,8 +1,8 @@
 package netmap
 
 import (
-	refs "github.com/nspcc-dev/neofs-api-go/v2/refs/grpc"
-	session "github.com/nspcc-dev/neofs-api-go/v2/session/grpc"
+	refs "github.com/epicchainlabs/epicchain-api-go/v2/refs/grpc"
+	session "github.com/epicchainlabs/epicchain-api-go/v2/session/grpc"
 )
 
 // SetBody sets body of the request.

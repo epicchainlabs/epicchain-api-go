@@ -6,8 +6,8 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/accounting"
-	"github.com/nspcc-dev/neofs-api-go/v2/session"
+	"github.com/epicchainlabs/epicchain-api-go/v2/accounting"
+	"github.com/epicchainlabs/epicchain-api-go/v2/session"
 	"github.com/stretchr/testify/require"
 )
 

@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/refs"
-	"github.com/nspcc-dev/neofs-api-go/v2/util/signature/walletconnect"
+	"github.com/epicchainlabs/epicchain-api-go/v2/refs"
+	"github.com/epicchainlabs/epicchain-api-go/v2/util/signature/walletconnect"
 	"github.com/nspcc-dev/rfc6979"
 )
 

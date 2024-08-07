@@ -1,7 +1,7 @@
 package refs
 
 import (
-	refs "github.com/nspcc-dev/neofs-api-go/v2/refs/grpc"
+	refs "github.com/epicchainlabs/epicchain-api-go/v2/refs/grpc"
 )
 
 // String returns string representation of ChecksumType.

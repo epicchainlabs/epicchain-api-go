@@ -3,7 +3,7 @@ package statustest
 import (
 	"testing"
 
-	"github.com/nspcc-dev/neofs-api-go/v2/status"
+	"github.com/epicchainlabs/epicchain-api-go/v2/status"
 	"github.com/stretchr/testify/require"
 )
 

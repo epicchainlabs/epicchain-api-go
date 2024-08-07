@@ -1,7 +1,7 @@
 package session
 
 import (
-	session "github.com/nspcc-dev/neofs-api-go/v2/session/grpc"
+	session "github.com/epicchainlabs/epicchain-api-go/v2/session/grpc"
 )
 
 // String returns string representation of ObjectSessionVerb.
